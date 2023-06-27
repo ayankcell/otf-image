@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: OCLP OTF Image Optimizer
- * Plugin URI: https://www.sadiskon.com
+ * Plugin URI: https://www.kurajin.com
  * Description: Plugin untuk merubah semua gambar di Landing Page WordPress menjadi format WebP dengan memanfaatkan layanan external CDN.  Fungsi utama: convert JPG/PNG ke WebP, Mengurangi beban server hosting untuk convert, CDN, Caching Gambar, membantu memperbaiki OCLP.  Plugin tidak berfungsi di localhost
  * Version: 1.0
  * Author: Akhyar
- * Author URI: http://kurajin.com/
+ * Author URI: https://www.kurajin.com/
  * Text Domain: oclp-otf
  */
 
