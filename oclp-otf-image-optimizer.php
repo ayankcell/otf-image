@@ -10,8 +10,8 @@
  */
 
  function krj_iwp_content_img( $filtered_image, $context, $attachment_id ) {
-		$find_pattern = '/(https:\/\/|https:\/\/)(?<!\.wp\.com)([^\s]+\.)(jpe?g|png|gif)/';
-	 	$replace_pattern= '//i'.rand(0,3).'.wp.com/${2}${3}';
+		$find_pattern = '/(http:\/\/|https:\/\/)(?<!\.wp\.com)([^\s]+\.)(jpe?g|png|gif)/';
+	 	$replace_pattern= 'https://i'.rand(0,3).'.wp.com/${2}${3}';
         
         return preg_replace($find_pattern, $replace_pattern, $filtered_image);
     
